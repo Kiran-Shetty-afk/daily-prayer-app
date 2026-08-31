@@ -32,3 +32,4 @@ Status: draft
 - Jest with the `jest-expo` preset is configured through `package.json`; run `npm test` for deterministic unit checks.
 - `src/lib/routine.test.ts` covers local date keys, completion progress, reminder-time validation, and YouTube URL classification.
 - Android device/emulator verification is blocked until an Android SDK is configured.
+- Final Android manual verification is intentionally handed to the user; see completed plan 001 for the checklist.

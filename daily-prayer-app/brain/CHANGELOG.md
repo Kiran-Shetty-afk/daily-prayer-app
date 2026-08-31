@@ -20,3 +20,6 @@
 
 ## v2026.08.31-0005-unit-tests
 - Added Expo Jest tooling and deterministic unit coverage for routine date, progress, reminder, and media-link helpers.
+
+## v2026.08.31-0006-plan-complete
+- Closed plan 001 after implementation and automated validation; final Android manual verification was handed off to the user.

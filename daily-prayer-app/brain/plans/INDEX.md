@@ -18,15 +18,15 @@
 
 | Category | Count |
 |----------|-------|
-| Active plans | 1 |
-| Completed | 0 |
+| Active plans | 0 |
+| Completed | 1 |
 | **Total** | **1** |
 
 ## Completed Plans
 
 | ID | Title | Tier | Completed |
 |----|-------|------|-----------|
-| _none yet_ | | | |
+| 001 | [Build a local-first Expo daily routine mobile app](completed/001-local-first-expo-mobile-app.md) | dig-deep | 2026-08-31 |
 
 ## Active Plans by Status
 
@@ -46,7 +46,7 @@
 
 | ID | Title | Tier |
 |----|-------|------|
-| 001 | Build a local-first Expo daily routine mobile app | dig-deep |
+| _none_ | | |
 
 ## Plan Structure
 

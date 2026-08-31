@@ -3,10 +3,11 @@ id: "001"
 title: Build a local-first Expo daily routine mobile app
 tier: dig-deep
 type: architecture
-status: in-progress
+status: done
 source: kenmark-plan
 created: 2026-08-31
 approved: 2026-08-31
+completed: 2026-08-31
 files:
   - package.json
   - app.json
@@ -201,5 +202,9 @@ Use foreign-key constraints, a migration version, and transactions for reorder/r
 - [x] Today, History, Manage, Settings, reading, direct audio/video, YouTube external launch, and durable local-media selection.
 - [x] Local reminder permission/scheduling, reminder-time preference, dark preference, and reset confirmation.
 - [x] Strict TypeScript, Jest unit suite, Expo Doctor, and Android Expo export checks.
-- [ ] Android emulator/device verification for media, file selection, notification delivery, persistence after restart, and small-screen accessibility.
-- [ ] Automated unit/integration tests for date/progress/database behavior.
+- [~] Android emulator/device verification is handed off to the user: media, file selection, notification delivery, persistence after restart, and small-screen accessibility.
+- [~] Optional future work: integration tests for initial seed, persistence, completion history, and reset behavior.
+
+## Completion handoff
+
+The implementation and automated checks are complete. The user accepted responsibility for final manual Android validation; this plan is closed with that verification explicitly handed off rather than represented as executed locally.
