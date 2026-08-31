@@ -17,3 +17,18 @@
 
 ## v2026.08.31-0004-expo-peer-fix
 - Added the SDK-compatible `expo-asset` peer dependency required by `expo-audio`; Expo Doctor now passes all checks.
+
+## v2026.08.31-0005-unit-tests
+- Added Expo Jest tooling and deterministic unit coverage for routine date, progress, reminder, and media-link helpers.
+
+## v2026.08.31-0006-plan-complete
+- Closed plan 001 after implementation and automated validation; final Android manual verification was handed off to the user.
+
+## v2026.08.31-0007-mantra-video-plan
+- Added proposed quick plan 002 to configure the seven supplied daily mantra videos.
+
+## v2026.08.31-0008-mantra-video-routine
+- Added the seven supplied mantra videos to fresh/reset routines and an explicit Settings action for existing local routines.
+
+## v2026.08.31-0009-expo-go-local-reminders
+- Kept daily reminders local-only in Expo Go by avoiding the `expo-notifications` package barrel and its remote push-token auto-registration side effect.

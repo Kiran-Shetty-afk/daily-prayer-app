@@ -29,4 +29,7 @@ Status: draft
 
 - `npm run typecheck` passes with strict TypeScript.
 - `npx expo export --platform android --clear` passes and creates an Android bundle.
-- No unit-test harness exists yet; Android device/emulator verification is blocked until an Android SDK is configured.
+- Jest with the `jest-expo` preset is configured through `package.json`; run `npm test` for deterministic unit checks.
+- `src/lib/routine.test.ts` covers local date keys, completion progress, reminder-time validation, and YouTube URL classification.
+- Android device/emulator verification is blocked until an Android SDK is configured.
+- Final Android manual verification is intentionally handed to the user; see completed plan 001 for the checklist.

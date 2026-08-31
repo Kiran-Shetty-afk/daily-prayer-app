@@ -4,8 +4,8 @@
 
 | Field | Value |
 |------|-------|
-| Last Assigned ID | 001 |
-| Next ID | 002 |
+| Last Assigned ID | 002 |
+| Next ID | 003 |
 
 ## Ledger Rules
 
@@ -18,15 +18,16 @@
 
 | Category | Count |
 |----------|-------|
-| Active plans | 1 |
-| Completed | 0 |
-| **Total** | **1** |
+| Active plans | 0 |
+| Completed | 2 |
+| **Total** | **2** |
 
 ## Completed Plans
 
 | ID | Title | Tier | Completed |
 |----|-------|------|-----------|
-| _none yet_ | | | |
+| 001 | [Build a local-first Expo daily routine mobile app](completed/001-local-first-expo-mobile-app.md) | dig-deep | 2026-08-31 |
+| 002 | [Configure the seven daily mantra videos](completed/002-configure-daily-mantra-videos.md) | quick | 2026-08-31 |
 
 ## Active Plans by Status
 
@@ -46,7 +47,7 @@
 
 | ID | Title | Tier |
 |----|-------|------|
-| 001 | Build a local-first Expo daily routine mobile app | dig-deep |
+| _none_ | | |
 
 ## Plan Structure
 
