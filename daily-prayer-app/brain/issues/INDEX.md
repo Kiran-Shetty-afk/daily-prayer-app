@@ -4,8 +4,8 @@
 
 | Field | Value |
 |------|-------|
-| Last Assigned ID | 001 |
-| Next ID | 002 |
+| Last Assigned ID | 002 |
+| Next ID | 003 |
 
 ## Ledger Rules
 
@@ -19,14 +19,15 @@
 | Category | Count |
 |----------|-------|
 | Active issues | 0 |
-| Completed | 1 |
-| **Total** | **1** |
+| Completed | 2 |
+| **Total** | **2** |
 
 ## Completed Issues
 
 | ID | Title | Completed |
 |----|-------|-----------|
 | 001 | [Add the required expo-audio peer dependency](completed/001-add-required-expo-audio-peer.md) | 2026-08-31 |
+| 002 | [Keep local reminders compatible with Expo Go](completed/002-expo-go-local-reminders.md) | 2026-08-31 |
 
 ## Active Issues by Priority
 

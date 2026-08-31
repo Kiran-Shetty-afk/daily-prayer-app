@@ -29,3 +29,6 @@
 
 ## v2026.08.31-0008-mantra-video-routine
 - Added the seven supplied mantra videos to fresh/reset routines and an explicit Settings action for existing local routines.
+
+## v2026.08.31-0009-expo-go-local-reminders
+- Kept daily reminders local-only in Expo Go by avoiding the `expo-notifications` package barrel and its remote push-token auto-registration side effect.
