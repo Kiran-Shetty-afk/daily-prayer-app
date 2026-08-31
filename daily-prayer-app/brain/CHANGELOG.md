@@ -23,3 +23,9 @@
 
 ## v2026.08.31-0006-plan-complete
 - Closed plan 001 after implementation and automated validation; final Android manual verification was handed off to the user.
+
+## v2026.08.31-0007-mantra-video-plan
+- Added proposed quick plan 002 to configure the seven supplied daily mantra videos.
+
+## v2026.08.31-0008-mantra-video-routine
+- Added the seven supplied mantra videos to fresh/reset routines and an explicit Settings action for existing local routines.
