@@ -17,3 +17,6 @@
 
 ## v2026.08.31-0004-expo-peer-fix
 - Added the SDK-compatible `expo-asset` peer dependency required by `expo-audio`; Expo Doctor now passes all checks.
+
+## v2026.08.31-0005-unit-tests
+- Added Expo Jest tooling and deterministic unit coverage for routine date, progress, reminder, and media-link helpers.

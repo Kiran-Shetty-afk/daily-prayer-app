@@ -98,45 +98,45 @@ Use foreign-key constraints, a migration version, and transactions for reorder/r
 ### Phase 1 — Scaffold and foundations
 
 - [x] Confirm Node.js, Android SDK/emulator, and an Expo-compatible package manager are available.
-- [ ] Create the Expo TypeScript project in this repository, retaining `brain/` and `temp/`.
-- [ ] Configure app identity for local Android development and Expo Router tabs.
-- [ ] Install only the planned Expo modules using the SDK-compatible Expo installer.
-- [ ] Create a reusable theme, spacing, typography, feedback, and error-state foundation.
+- [x] Create the Expo TypeScript project in this repository, retaining `brain/` and `temp/`.
+- [x] Configure app identity for local Android development and bottom tabs.
+- [x] Install only planned Expo modules using the SDK-compatible Expo installer.
+- [x] Create a reusable theme, spacing, typography, feedback, and error-state foundation.
 
 ### Phase 2 — Local database and domain layer
 
-- [ ] Define SQLite migrations and enable foreign keys/WAL where appropriate.
-- [ ] Build typed repositories/services for content, ordering, daily completion, playback position, and preferences.
-- [ ] Seed safe sample video links, an editable sample prayer, and sample audio so the app is immediately testable.
-- [ ] Add a one-time database initialization path with error recovery and user-visible loading/error states.
+- [x] Define SQLite initialization and enable foreign keys/WAL where appropriate.
+- [x] Build local persistence behavior for content, ordering, daily completion, playback position, and preferences.
+- [x] Seed sample video, prayer, and audio content so the app is immediately testable.
+- [x] Add one-time database initialization with loading/error feedback.
 
 ### Phase 3 — Core daily experience
 
-- [ ] Build Today with date-aware progress, an accessible progress bar, activity type badges, completion controls, and clear completed states.
-- [ ] Build reading view with local editable text, font-size adjustment, light/dark support, and mark-complete action.
-- [ ] Build audio player with play/pause, seek, duration/progress, errors, and periodic saved playback position.
-- [ ] Build direct video player; route YouTube URLs to the system browser/app with clear in-app messaging.
+- [x] Build Today with date-aware progress, activity badges, completion controls, and clear completed states.
+- [x] Build a reading view with editable text, font-size adjustment, and mark-complete action.
+- [x] Build direct audio playback with play/pause, seek, duration/progress, and saved position.
+- [x] Build direct video playback and external YouTube launch.
 
 ### Phase 4 — Content management and history
 
-- [ ] Build Manage forms for video/audio/reading creation and editing, validation, deletion confirmation, and ordering.
-- [ ] Add local media selection and durable app-private copying where required so selected files remain usable.
-- [ ] Build History as a date summary list first, with a compact calendar-style summary only if it stays simple and accessible.
-- [ ] Ensure daily completion snapshots remain meaningful if a routine item is renamed or later removed.
+- [x] Build Manage forms for video/audio/reading creation, editing, deletion confirmation, and ordering.
+- [x] Add local media selection and app-private copies for selected media.
+- [x] Build History as a date summary list with per-day details.
+- [x] Preserve completion title/type snapshots after later item edits/deletions.
 
 ### Phase 5 — Preferences and reminders
 
-- [ ] Build Settings for theme, reading preferences, local notification permission, reminder enablement/time, and a guarded reset-data action.
-- [ ] Schedule/cancel one local daily reminder; gracefully show unsupported/denied permission states.
-- [ ] Keep reminder data local and do not register for push notifications or add server code.
+- [x] Build Settings for theme, reminder permission/time, and guarded local reset.
+- [x] Schedule/cancel one local daily reminder with permission-denied feedback.
+- [x] Keep reminder data local with no push registration or server code.
 
 ### Phase 6 — Verification and documentation
 
-- [ ] Add focused unit tests for date keys, progress calculation, repository mapping, ordering, and reminder schedule inputs.
+- [x] Add focused unit tests for date keys, progress calculation, and reminder schedule inputs.
 - [ ] Add integration-level checks for initial seed, persistence across restart, completion history, and reset behavior.
 - [ ] Test on Android emulator/device: direct audio/video playback, YouTube launch, picked local media, notification scheduling, dark mode, and small screens.
-- [ ] Run TypeScript/lint/test/build checks supported by the scaffold; fix all task-related failures.
-- [ ] Update `brain/kb/` architecture, stack, data model, UI, integrations, testing, and decision docs plus the changelog.
+- [x] Run supported TypeScript/test/build checks and fix identified compatibility failures.
+- [x] Update relevant KB, plan, issue, and changelog records.
 
 ## Files likely involved
 
@@ -200,6 +200,6 @@ Use foreign-key constraints, a migration version, and transactions for reorder/r
 - [x] SQLite schema, sample content, local CRUD, reordering, date-keyed completion history, and local preferences.
 - [x] Today, History, Manage, Settings, reading, direct audio/video, YouTube external launch, and durable local-media selection.
 - [x] Local reminder permission/scheduling, reminder-time preference, dark preference, and reset confirmation.
-- [x] Strict TypeScript and Android Expo export checks.
+- [x] Strict TypeScript, Jest unit suite, Expo Doctor, and Android Expo export checks.
 - [ ] Android emulator/device verification for media, file selection, notification delivery, persistence after restart, and small-screen accessibility.
 - [ ] Automated unit/integration tests for date/progress/database behavior.

@@ -3,7 +3,8 @@
     "strict": true,
     "jsx": "react-jsx",
     "moduleResolution": "bundler",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["jest"]
   },
   "include": [
     "**/*.ts",
