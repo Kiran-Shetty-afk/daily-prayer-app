@@ -1,0 +1,8 @@
+# kenmark-init
+/temp/
+
+# Expo / Node build artifacts
+node_modules/
+.expo/
+dist/
+npm-debug.*
